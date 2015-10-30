@@ -9,6 +9,12 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.suhaas.signupform.HomeActivity">
 
+    <TextView
+        android:id="@+id/welcome_text"
+        android:textSize="32sp"
+        android:text="@string/hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 
 
