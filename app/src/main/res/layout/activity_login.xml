@@ -26,7 +26,7 @@
                 android:textSize="12sp" />
 
             <EditText
-                android:id="@+id/edit_text"
+                android:id="@+id/username_input"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_toRightOf="@+id/text_view"
@@ -49,7 +49,7 @@
                 android:textSize="12sp" />
 
             <EditText
-                android:id="@+id/edit_text1"
+                android:id="@+id/password_input"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_toRightOf="@+id/text_view"
@@ -72,7 +72,7 @@
                 android:textSize="12sp" />
 
             <EditText
-                android:id="@+id/edit_text2"
+                android:id="@+id/confirm_input"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_toRightOf="@+id/text_view"
@@ -85,7 +85,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button_text"
+        android:id="@+id/submit_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignRight="@+id/fields"
